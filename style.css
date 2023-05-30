@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.mainheader{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+width:250px;
+height:70px;
+padding-top: 10px;
+padding-left:100px;
+}
+.mainheader nav{
+    width:450px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainheader nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+}
+
+.menubtn{
+    margin:60px;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color:black;
+    border-radius: 10px;
+    background-color:#90CAF8;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .right-sec{
+    /* padding-right: 70px; */
+    /* display: flex; */
+    float: right;
+    }
+
+main .left-sec{
+    float: left;
+    padding-top:150px;
+    padding-left:150px;
+}
+
+.left-sec h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color:#242424;
+    margin-top: 100px;
+}
+
+.left-sec h1{
+    font-size:50px;
+    text-transform: capitalize;
+    margin: 15px 0px;
+    font-weight:700;
+}
+.left-sec p{
+    margin-bottom: 20px;
+}
+.left-sec button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color:black;
+    border-radius: 10px;
+   background-color: #90CAF8;
+    /* background-image: linear-gradient(45deg, #688FA9, #90CAF8); */
+}
